@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #121212 !important;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +20,390 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar-wrapper a{
+  padding-left: 30px;
+}
+
+.image-banne-2{
+  position: absolute;
+  width: 843.69px;
+  height: 884px;
+  left: -35px;
+  top: 9.18px;
+  transform: rotate(-7.06deg);
+}
+
+.image-banner-1{
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: 0px;
+  top: 130px;
+}
+
+
+.banner-header{
+  position: absolute;
+  width: 541.38px;
+  height: 148.4px;
+  left: 60rem;
+  top: 206px;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: right;
+  margin-left: 3rem;
+  color: #FFFFFF;
+}
+
+.banner-para{
+  position: absolute;
+  width: 596px;
+  height: 107px;
+  left: 65rem;
+  color: #FFFFFF;
+  top: 472px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  font-feature-settings: 'kern' off;
+}
+
+.banner-button{
+  position: absolute;
+  width: 186px;
+  height: 68.97px;
+  left: 1545px;
+  top: 610px;
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 42px;
+}
+
+.navbar-discord-button{
+  position: absolute;
+  width: auto;
+  height: 3rem;
+  left: 1545px;
+  top: 1.5rem;
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 42px;
+}
+
+.collection-dots{
+  position: absolute;
+  width: 714px;
+  height: 95rem;
+  top: 761px;
+}
+
+.banner-eclipse-large{
+  position: absolute;
+  border-radius: 50%;
+  width: 1190px;
+  height: 1198px;
+  left: 75rem;
+  top: 117rem;
+  background: rgba(172, 50, 228, 0.1);
+}
+
+.golden-title{
+  position: absolute;
+  width: 497px;
+  height: 78px;
+  left: 15rem;
+  top: 35px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 78px;
+  color: #E2C668;
+}
+
+.golden-banner{
+  position: absolute;
+  width: 100%;
+  height: 433px;
+  left: 0px;
+  top: 2439px;
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+
+.golden-image{
+  position: absolute;
+  width: 648px;
+  height: 648px;
+  left: 65rem;
+  top: 2345px;
+}
+
+.golden-button{
+  position: absolute;
+  width: 638.48px;
+  height: 68px;
+  font-size: 30px;
+  left: 16rem;
+  top: 18rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #7918F2 48%, #4801FF 100%);
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  box-shadow: -10px -10px 0px 1px #000;
+}
+
+.golden-para{
+  position: absolute;
+  width: 759px;
+  height: 98px;
+  left: 15rem;
+  top: 9rem;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+.card-name{
+  position: absolute;
+  width: 76.11px;
+  height: 26.37px;
+  left: 81.05px;
+  top: 22.18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.0853px;
+  line-height: 26px;
+  /* or 144% */
+  color: #FFFFFF;
+}
+
+.card-star{
+  position: relative;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  margin-right: 7rem;
+  top: 24.18px;
+  background-repeat: no-repeat !important;
+}
+
+.card-number{
+  position: absolute;
+  width: 22.51px;
+  height: 26.12px;
+  left: 337.71px;
+  top: 22.18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4089px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.card-date{
+  position: absolute;
+  width: 71.14px;
+  height: 26.12px;
+  left: 271.97px;
+  top: 435.87px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3095px;
+  line-height: 26px;
+
+  color: #A7A7A7;
+}
+
+.card-bid{
+  position: absolute;
+  width: 88.25px;
+  height: 26.12px;
+  left: 36.02px;
+  top: 435.87px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3095px;
+  line-height: 26px;
+  color: #A7A7A7;
+}
+
+.card-image{
+  position: absolute;
+  width: 336.09px;
+  height: 337.59px;
+  left: 24.11px;
+  top: 73.09px;
+}
+
+.card-component{
+  width: 25rem;
+  height: 33rem;
+  left: 384.31px;
+  margin-bottom: 75px;
+  top: 0px;
+  background: radial-gradient(145.1% 102.55% at 0% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-backdrop-filter: blur(38.2676px);
+  backdrop-filter: blur(38.2676px);
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(45deg, rgb(10, 10, 10), rgb(168, 168, 167)) 1;
+}
+
+.card-para{
+  width: 17rem;
+  text-align: left;
+}
+
+.card-icon{
+  position: absolute;
+  width: 43.23px;
+  height: 43.23px;
+  left: 24.32px;
+  top: 13.18px;
+  background-repeat: no-repeat !important;
+}
+
+.collection-para{
+  position: absolute;
+  width: 1191px;
+  height: 83px;
+  left: 62px;
+  top: 994px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  z-index: 999;
+  color: #FFFFFF;
+}
+
+.collection-header{
+  position: absolute;
+  width: 547px;
+  height: 144px;
+  left: 61px;
+  top: 835px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 144px;
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+}
+
+.banner-sub-header{
+  position: absolute;
+  width: 422px;
+  height: 56px;
+  left: 80rem;
+  top: 331px;
+  background: linear-gradient(0.25turn, #00DBDE, #FC00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: right;
+}
+
+.banner-eclipse-right{
+  position: absolute;
+  width: 42rem;
+  height: 40rem;
+  left: 90rem;
+  top: -154px;
+  border-radius: 50%;
+  background: rgba(172, 50, 228, 0.2);
+}
+
+.banner-vector-1{
+  position: absolute;
+  width: 9.82px;
+  height: 4rem;
+  left: 98rem;
+  transform: rotate(23deg);
+  top: 10rem;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #595059 100%);
+}
+
+.banner-vector-2{
+  position: absolute;
+  width: 9.82px;
+  height: 4rem;
+  left: 100rem;
+  transform: rotate(67deg);
+  top: 12rem;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #595059 100%);
+}
+
+.banner-vector-3{
+  position: absolute;
+  width: 9.82px;
+  height: 4rem;
+  left: 100rem;
+  transform: rotate(105deg);
+  top: 14.5rem;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #595059 100%);
+}
+
+.banner-eclipse-left{
+  position: absolute;
+  width: 42rem;
+  height: 40rem;
+  left: -15rem;
+  top: 7rem;
+  border-radius: 50%;
+  background: rgba(172, 50, 228, 0.2);
+  opacity: 0.5;
+}
+
+.banner-input{
+  position: absolute;
+  width: 25% !important;
+  height: 68px;
+  left: 1055px;
+  top: 611px;
+  border: 2.72272px solid #7918F2 !important;
+  box-sizing: border-box;
+  background: transparent !important;
 }
 
 .App-header {
@@ -28,6 +421,141 @@
   color: #61dafb;
 }
 
+.banner-sub-footer{
+  position: absolute;
+  width: 506px;
+  height: 84.77px;
+  left: 45rem;
+  top: 2985px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 84px;
+  text-align: center;
+  background: linear-gradient(0.25turn, #00DBDE, #FC00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links-current{
+  text-decoration: none;
+  height: 27.3px;
+  top: 34.11px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #7918F2;
+
+}
+
+.nav-links{
+  text-decoration: none;
+  height: 27.3px;
+  top: 34.11px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #fff;
+
+}
+
+.site-log{
+  position: absolute;
+  width: 231.58px;
+  height: 57.3px;
+  left: 79px;
+  top: 25px;
+}
+
+.image-newsletter {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 72rem;
+  top: 3089px;
+}
+
+.gradient-underline {
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+}
+
+.gradient-underline::after {
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.newsletter-sign-up{
+  position: absolute;
+  width: 366px;
+  height: 38px;
+  left: 49rem;
+  top: 3081.25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer {
+  flex-shrink: 0;
+  /* text-align: center; */
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  top: 205rem;
+}
+
+.site-logo{
+  margin-top: 1rem;
+  float: left; 
+  margin-left: 2rem;
+  margin-right: 5rem;
+}
+
+.footer-icons{
+  position: absolute;
+  width: 28.23px;
+  height: 24px;
+  top: 35px;
+}
+
+.footer-para{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #767676;
+}
+
+.slider{
+  position: absolute;
+  width: 80%;
+  height: 0px;
+  left: 13rem;
+  top: 204rem;
+  border: 1px solid #818181;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +563,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
 }
